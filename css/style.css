@@ -1,0 +1,35 @@
+@charset 'utf-8'
+
+
+* { margin: 0 auto; overflow: hidden; }
+
+body { font-family: 'Offside', cursive; }
+
+
+
+#beginning {
+
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	float: left
+	
+
+}
+
+#beginning h1 {
+
+	font-size: 300%;
+	color: #6699CC;
+	font-family: 'Offside', cursive;
+
+
+}
+
+#logo {
+
+	width: 20%;
+
+}
+
+

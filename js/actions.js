@@ -2,7 +2,10 @@
 (function() {
 
   $(document).ready(function() {
-    return $.backstretch("img/preslawn.jpg");
+    $.backstretch("img/preslawn.jpg");
+    return $(".backstretch").css({
+      "position": "static"
+    });
   });
 
 }).call(this);
