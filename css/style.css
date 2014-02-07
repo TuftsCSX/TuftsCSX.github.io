@@ -15,7 +15,9 @@ body { font-family: 'Offside', cursive; }
 
 	margin-top: 50px;
 	color: white;
-	background-color: rgba(1, 1, 1, 0.1)
+	background-color: rgba(1, 1, 1, 0.5);
+	padding-top: 10px;
+	border-radius: 2px; 
 
 }
 
