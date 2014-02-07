@@ -1,9 +1,7 @@
 
-$(document).ready -> 
-	$.backstretch("img/preslawn.jpg")
-	$(".backstretch").css "position":"static"
-	
-
+$(document).ready ->
+	$.backstretch("img/preslawn.png")
+	$(".backstretch").css "position":"absolute"
 
 
 

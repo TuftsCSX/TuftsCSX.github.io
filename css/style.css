@@ -6,29 +6,16 @@
 body { font-family: 'Offside', cursive; }
 
 
+#header img {
 
-#beginning {
-
-	position: absolute;
-	width: 80%;
-	left: 10%;
-	float: left
-	
-
+	margin-top: 100px;
 }
 
-#beginning h1 {
+#intro {
 
-	font-size: 300%;
-	color: #6699CC;
-	font-family: 'Offside', cursive;
-
-
-}
-
-#logo {
-
-	width: 20%;
+	margin-top: 50px;
+	color: white;
+	background-color: rgba(1, 1, 1, 0.1)
 
 }
 
