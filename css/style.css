@@ -3,8 +3,11 @@
 
 * { margin: 0 auto; overflow: hidden; }
 
-body { font-family: 'Offside', cursive; }
+body { font-family: 'Offside', cursive;}
 
+.backstretch {
+	background-color: black; 
+}
 
 #header img {
 
@@ -13,7 +16,7 @@ body { font-family: 'Offside', cursive; }
 
 #intro {
 
-	margin-top: 50px;
+	margin-top: 40px;
 	color: white;
 	background-color: rgba(1, 1, 1, 0.5);
 	padding-top: 10px;
@@ -21,4 +24,23 @@ body { font-family: 'Offside', cursive; }
 
 }
 
+
+#about {
+
+	padding-top: 20px;
+
+}
+
+#about img {
+
+	border: 1px solid black;
+	margin-top: 35px;
+
+}
+
+#about #text {
+
+	padding-top: 30px;
+
+}
 
