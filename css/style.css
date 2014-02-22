@@ -77,10 +77,16 @@ h4 {
 .fade {
 
         opacity: 0.8;
-        cursor: pointer;
         transition: opacity .4s ease-in-out;
         -moz-transition: opacity .4s ease-in-out;
         -webkit-transition: opacity .4s ease-in-out;
 
 } .fade:hover { opacity: 1.0; }
+
+.fade2 {
+
+
+} .fade2:hover { }
+
+
 
