@@ -34,3 +34,27 @@ $(document).ready(function () {
         $(this).parent().hide();
     })
 });
+
+$("#gform").submit(function (event) {
+	$("input[type=submit]").val("SENDING");
+	$("input").attr("disabled", true);
+
+	console.log("sending feedback...");
+	event.preventDefault();
+	var url=$(this).closest('form').attr('action'),
+    data=$(this).closest('form').serialize();
+    $.ajax({
+        url:url,
+        type:'post',
+        data:data
+   }).done(function(){
+        alert("Your response has been recorded. Thank you for your feedback.");
+  		console.log("clear form area");
+   		$(':input','#gform').not(':button, :submit, :reset, :hidden').val('');
+   }).fail(function(){
+		alert("Failed to submit your response. Please try again later.");
+   }).always(function(){
+		$("input").attr("disabled", false);
+        $("input[type=submit]").val("SEND");
+   });
+});
