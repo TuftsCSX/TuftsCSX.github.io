@@ -85,6 +85,7 @@
         .wrapper header.header .header-text {
             margin: 0 auto;
             padding-top: 20px;
+            padding-bottom:250px;
         }
         .wrapper header.header .another-text {
             margin-top: 150px;
