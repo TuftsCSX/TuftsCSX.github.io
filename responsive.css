@@ -85,7 +85,7 @@
         .wrapper header.header .header-text {
             margin: 0 auto;
             padding-top: 20px;
-            padding-bottom:250px;
+            padding-bottom:230px;
         }
         .wrapper header.header .another-text {
             margin-top: 150px;
@@ -255,6 +255,7 @@
         }
         .wrapper header.header .header-text h1 {
             font-size: 40px;
+            padding-bottom: 100px;
         }
         .wrapper header.header .header-text h1::before {
             left: 0;
